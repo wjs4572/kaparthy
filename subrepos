@@ -1,0 +1,10 @@
+# Hash listing the subrepos this repo-catalog depends on
+# Structure of each element: ["directory name"]="path to repo"
+# i.e.: REPOS=( ["sub1"]="git@gitolite:sub1" ["sub2"]="git@gitolite:sub2" )
+
+declare -A REPOS
+REPOS["micrograd"]="git@github.com:wjs4572/karpathy.micrograd.git"
+REPOS["llm-c"]="git@github.com:wjs4572/karpathy.llm.c.git"
+REPOS["nanochat"]="git@github.com:wjs4572/karpathy.nanochat.git"
+REPOS["llama2-c"]="git@github.com:wjs4572/karpathy.llama2.c.git"
+REPOS["nanoGPT"]="git@github.com:wjs4572/karpathy.nanoGPT.git"
